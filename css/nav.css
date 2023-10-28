@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #000000;
+    height:3.8rem;
+    /* position: relative; */
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 61px;
+}
+.logo img{
+    height: 55px;
+    margin-top: 5px;
+}
+.logo_name{
+    width: 10%;
+    height: 61px;
+}
+.logo_name h1 {
+    color: white;
+    margin-top: 14px;
+    margin-left: -13.9rem;
+}
+.nav_bar{
+    width: 70%;
+}
+.nav_bar ul {
+    display: flex;
+    margin-left: 25rem;
+    
+}
+.nav_bar ul li{
+   list-style: none;
+   margin-left: 1.5rem;
+   margin-top: 18px;
+}
+.nav_bar ul li a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.nav_bar a:hover{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+}
